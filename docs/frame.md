@@ -1326,7 +1326,7 @@ renderjs，以 vue 组件的写法运行在 view 层。
 ### 注意事项
 
 * 可以使用 dom、bom API 不可直接访问逻辑层数据
-* 视图层和逻辑层通讯方式与 [WXS](?id=wxs) 一致
+* 视图层和逻辑层通讯方式与 [WXS](https://uniapp.dcloud.io/frame?id=wxs) 一致
 * 观测更新的数据在 view 层可以直接访问到
 * 不要直接引用大型类库，推荐通过动态创建 script 方式引用
 * view 层的页面引用资源的路径相对于根目录计算，例如：./static/test.js
